@@ -67,3 +67,7 @@ A compact lithium battery providing portable power for extended outdoor monitori
 
 ## 🔌 Hardware Connections
 
+## Libraries
+
+1. https://github.com/deeja/BTHomeV2-Arduino
+2. https://github.com/h2zero/NimBLE-Arduino
