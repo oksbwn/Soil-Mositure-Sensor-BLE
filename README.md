@@ -213,6 +213,18 @@ text
 ![Schematic](.img/Schematics.png)
 
 > **Note**: Use 100kΩ resistors for voltage divider. Add 0.1µF capacitor close to ADC pin.
+## Caliberate the Moisture sensor
+
+use [`moisture_sensor_calibertae.ino`](./Arduino%20Sketch/moisture_sensor_calibertae.ino) to caliberate the sensor. For me it is typicaly `2048` when sensor is in air. and `768` when dipped in air.
+
+This would help us etup 
+
+```cpp
+#define MOISTURE_SENSOR_READING_IN_AIR 2048     // Dry reading
+#define MOISTURE_SENSOR_READING_IN_WATER 768    // Wet reading
+```
+
+
 
 ## 🐛 Troubleshooting
 
